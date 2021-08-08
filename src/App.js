@@ -9,6 +9,7 @@ import FlashMessage from "react-native-flash-message";
 
 const MainApp = () => {
   const selector = useSelector(state => state)
+  console.disableYellowBox = true;
   return (
     <>
       <NavigationContainer>
